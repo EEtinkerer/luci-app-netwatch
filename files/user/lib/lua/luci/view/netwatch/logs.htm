@@ -1,0 +1,5 @@
+<%+header%>
+<h2>NetWatch Logs</h2>
+<p><a class="cbi-button cbi-button-apply" href="<%=luci.dispatcher.build_url("admin/system/netwatch")%>">Settings</a></p>
+<pre style="background:#111;color:#0f0;padding:12px;overflow:auto;max-height:600px;border-radius:6px;"><%=luci.sys.exec("logread -e netwatch | tail -n 200")%></pre>
+<%+footer%>
