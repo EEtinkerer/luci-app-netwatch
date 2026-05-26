@@ -57,7 +57,7 @@ open telegram, start a chat with @botfather type
 /new 
 ```
 follow the prompts to make a bot.
-youll know you are done when the bot father gives you a token. copy it, search for BotyouMadeBot
+youll know you are done when the bot father gives you a token. copy it, search for @BotyouMadeBot
 make a chat, type
 ```
 /start
