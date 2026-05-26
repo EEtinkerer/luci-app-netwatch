@@ -7,7 +7,7 @@ PKG_RELEASE:=1
 # Fill this in after you push this package to GitHub/Gitea/etc.
 # Example:
 # PKG_SOURCE_PROTO:=git
-# PKG_SOURCE_URL:=https://github.com/YOURUSER/luci-app-netwatch.git
+# PKG_SOURCE_URL:=https://github.com/EETinkerer/luci-app-netwatch.git
 # PKG_SOURCE_VERSION:=main
 # PKG_MIRROR_HASH:=skip
 
