@@ -45,7 +45,7 @@ In `Makefile`, fill in:
 ```
 make
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL:=https://github.com/YOURUSER/luci-app-netwatch.git
+PKG_SOURCE_URL:=https://github.com/EETinkerer/luci-app-netwatch.git
 PKG_SOURCE_VERSION:=main
 PK
 ```
