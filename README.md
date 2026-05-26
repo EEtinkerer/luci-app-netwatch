@@ -42,9 +42,38 @@ make package/luci-app-netwatch/compile V=s
 
 In `Makefile`, fill in:
 
-```make
+```
+make
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_URL:=https://github.com/YOURUSER/luci-app-netwatch.git
 PKG_SOURCE_VERSION:=main
-PKG_MIRROR_HASH:=skip
+PK
+```
+##Connecting to telegram:
+create telegram bot, add your bot token and telegram id to app for direct notifications.
+open telegram, start a chat with @botfather type 
+```
+/start
+/new 
+```
+follow the prompts to make a bot.
+youll know you are done when the bot father gives you a token. copy it, search for BotyouMadeBot
+make a chat, type
+```
+/start
+```
+to bein conversation.
+search for @rawdatabot. start chat, type 
+```
+/start
+```
+ will return json, copy 
+```
+"chat" {
+        "id" : copy this value,
+        }
+```
+  this is your telegram id.
+open luci, login, system>netwatch> add telegram bot token and your telegram id. 
+G_MIRROR_HASH:=skip
 ```
